@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- 背景：黑色圆角矩形 -->
+  <rect x="4" y="4" width="120" height="120" rx="28" fill="black"/>
+  
+  <!-- 中间的 X (白色) -->
+  <path d="M38 38 L90 90 M90 38 L38 90" stroke="white" stroke-width="12" stroke-linecap="round" />
+  
+  <!-- 右下角的 History 元素 (蓝色时钟) -->
+  <circle cx="94" cy="94" r="26" fill="#1d9bf0" stroke="white" stroke-width="4"/>
+  
+  <!-- 时钟指针 -->
+  <path d="M94 78 V94 L104 94" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

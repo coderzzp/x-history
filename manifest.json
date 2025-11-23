@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "X 历史记录",
+  "version": "3.1",
+  "description": "自动记录浏览过的 Twitter/X 详情页，支持快速跳转。",
+  "permissions": [
+    "storage",
+    "tabs"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "查看历史记录",
+    "default_icon": {
+      "16": "icon16.png",
+      "32": "icon48.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
