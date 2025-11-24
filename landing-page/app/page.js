@@ -38,7 +38,9 @@ export default function Home() {
         
         <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
           <a 
-            href="#" 
+            href="https://chromewebstore.google.com/detail/x-%E5%8E%86%E5%8F%B2%E8%AE%B0%E5%BD%95/lapfjdfnkkkfdgpdgemgoackjoeoldea?hl=zh-CN&authuser=0"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center justify-center gap-2 bg-black text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-gray-800 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1"
           >
             <Download className="w-5 h-5" />
